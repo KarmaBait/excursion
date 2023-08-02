@@ -8,7 +8,7 @@
 html {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: #fff;
     text-align: center;
     background-color: #000;
 }
@@ -20,11 +20,51 @@ html {
     margin-bottom: 1.75rem;
 }
 
-.top-section .text-content-top a {
+a {
     font-size: 1rem;
     color: #7fffd4;
 }
 
 .top-section .video-container {
     margin-top: 1.25rem;
+}
+
+/* Middle Section */
+.mid-section .text-content-mid .headline-mid-content{
+    margin-top: 1.25rem;
+    font-weight: 300;
+    font-size: 2.625rem;
+    margin-bottom: 1.75rem;
+    color: #fff;
+}
+
+.mid-section .text-content-mid p {
+    font-size: 1.3125rem;
+    color: #808080;
+}
+
+.mid-section .image-container {
+    margin-top: 1.25rem;
+}
+
+/* Bottom section */
+.bottom-section {
+    margin-top: 1.75rem;
+}
+
+.bottom-section .image-container {
+    margin-bottom: 1.25rem;
+}
+
+.bottom-section .text-content-bottom p {
+    font-weight: 300;
+    font-size: 2.625rem;
+    margin-bottom: 1.75rem;
+}
+
+/* Footer */
+footer p {
+    margin: 1rem 1rem 1rem 0;
+    text-align: right;
+    color: #808080;
 }
