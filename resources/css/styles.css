@@ -24,3 +24,7 @@ html {
     font-size: 1rem;
     color: #7fffd4;
 }
+
+.top-section .video-container {
+    margin-top: 1.25rem;
+}
