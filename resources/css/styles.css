@@ -1,0 +1,26 @@
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #000;
+}
+
+/* Top section */
+.top-section .text-content-top p {
+    font-size: 3.125rem;
+    padding-top: 1.875rem;
+    margin-bottom: 1.75rem;
+}
+
+.top-section .text-content-top a {
+    font-size: 1rem;
+    color: #7fffd4;
+}
